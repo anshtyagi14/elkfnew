@@ -24,8 +24,8 @@ $ sudo yum install java
 ### Step 3: Install Elasticsearch
 
 ```console
-$ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.9.1-x86_64.rpm 
-$ sudo yum install elasticsearch-8.9.1-x86_64.rpm
+$ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.12.0-x86_64.rpm
+$ sudo yum install elasticsearch/elasticsearch-8.12.0-x86_64.rpm
 ```
 
 ### Step 4: Configure Elasticsearch
@@ -57,8 +57,8 @@ $ sudo systemctl enable --now elasticsearch
 ### Step 5: Install Logstash
 
 ```console
-$ wget https://artifacts.elastic.co/downloads/logstash/logstash-8.9.1-x86_64.rpm
-$ sudo yum install logstash-8.9.1-x86_64.rpm
+$ wget https://artifacts.elastic.co/downloads/logstash/logstash-8.12.0-x86_64.rpm
+$ sudo yum install logstash-8.12.0-x86_64.rpm
 ```
 
 ### Step 6: Configure Logstash
@@ -95,8 +95,8 @@ $ sudo systemctl enable --now logstash
 ### Step 7: Install Kibana
 
 ```console
-$ wget https://artifacts.elastic.co/downloads/kibana/kibana-8.9.1-x86_64.rpm
-$ sudo yum install kibana-8.9.1-x86_64.rpm
+$ wget https://artifacts.elastic.co/downloads/kibana/kibana-8.12.0-x86_64.rpm
+$ sudo yum install kibana-8.12.0-x86_64.rpm
 ```
 
 ### Step 8: Configure Kibana
@@ -122,8 +122,8 @@ $ sudo systemctl enable --now kibana
 ### Step 9: Install Filebeat
 
 ```console
-$ wget https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-8.9.1-x86_64.rpm 
-$ sudo yum install filebeat-8.9.1-x86_64.rpm
+$ wget https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-8.12.0-x86_64.rpm
+$ sudo yum install filebeat-8.12.0-x86_64.rpm
 ```
 
 ### Step 10: Configure Filebeat
