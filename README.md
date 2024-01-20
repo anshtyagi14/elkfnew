@@ -357,4 +357,10 @@ output.logstash: # <----- change made here
   #ssl.key: "/etc/pki/client/cert.key"
 ```
 
+Enable and start Filebeat:
+
+```console
+$ sudo systemctl enable --now filebeat
+```
+
 This guide should help you install and configure Elasticsearch, Logstash, Kibana, and Filebeat on Amazon Linux 2023.
