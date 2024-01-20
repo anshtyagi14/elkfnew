@@ -152,15 +152,10 @@ input {
   }
 }
 
-filter {
-  # Your filter configuration (if needed)
-}
-
 output {
   elasticsearch {
     hosts => ["http://localhost:9200"]
     index => "logstash-%{+YYYY.MM.dd}"
-    # user and password if you have X-Pack security enabled
   }
 }
 ```
